@@ -1,5 +1,10 @@
 /* Stylesheet 1: */
 body {
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-size: 30%;
   background-color: #d14836;
   font: 100% Lucida Sans, Verdana;
   margin: 20px;
