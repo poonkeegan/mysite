@@ -1,0 +1,82 @@
+/* Stylesheet 1: */
+body {
+  background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-size: 30%;
+  background-color: #d14836;
+  font: 100% Lucida Sans, Verdana;
+  margin: 20px;
+  line-height: 26px;
+}
+
+/* Header */
+header {
+  margin: 4px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: #d14836;
+  padding: 15px;
+}
+
+header h1, header p {
+  margin: 0;
+}
+
+/* This is the navigation menu for links */
+nav {
+  width: 190px;
+  float: left;
+}
+nav ul{
+  margin:0;
+  padding:0;
+  font: 18px "verdana";
+}
+
+nav li{
+  width: 155px;
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+nav li a:hover{
+  background-color: #a63526;
+  color: #ffffff;
+}
+
+nav li a:active{
+  background-color: #7f363f;
+}
+
+nav li a{
+  background-color: #ffffff;
+  border: 2px solid #d14836;
+  border-radius: 40px;
+  color: #d14836;
+  display: list-item;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Main content of webpage */
+
+main {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  margin: 20px 210px;
+}
+
+@media (max-width: 800px) {
+  nav {
+    float:none;
+  }
+  main {
+    margin: 20px;
+  }
+}
